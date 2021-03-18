@@ -1,0 +1,30 @@
+---js
+{
+  pagination: {
+  data: "collections.3c112639_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div id="w-node-a2530590-eb24-1b50-9d64-3cf55f8fbf1a-fb9d63ff" role="listitem" class="_3card_flex__item-wrap w-dyn-item">
+            <a href="{{ item.data.url | escape }}" class="news-thumbnail__wrapper w-inline-block">
+              <div class="news-thumbnail__img-container"><img src="{{ item.data['thumbnail-image'].url | escape }}" alt="{{ item.data['thumbnail-image'].alt | escape }}" class="news-thumbnail__img"></div>
+              <div data-w-id="61dfdda4-93e1-f362-ace5-26af59a8091a" data-animation-type="lottie" data-src="/static/documents/giallo2.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.0020019204587935" data-duration="0" class="news-thumbnail__lottie"></div>
+              <div class="news-thumbnail__content-container">
+                <h3 class="news-thumbnail__heading">{{ item.data.name }}</h3>
+                <p class="news__thumbnail__p">{{ item.data.incipit }}</p>
+              </div>
+            </a>
+          </div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}

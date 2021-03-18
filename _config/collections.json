@@ -1,0 +1,1228 @@
+{
+  "43925": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/healthcare.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "5c0e93ea": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 1,
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "63958d57": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-26dbc29e": {
+    "collection": "case_studies",
+    "paginationLimit": 10,
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "show",
+          "operatorName": "eq",
+          "value": "true"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-5d10f555": {
+    "collection": "team",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Luciani"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Passacantilli"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Adriano Urso"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-job-title"
+      ]
+    }
+  },
+  "1644ba61": {
+    "collection": "digital_magazine",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idin",
+          "value": "category/awards.md"
+        }
+      ]
+    }
+  },
+  "3c112639": {
+    "collection": "digital_magazine",
+    "paginationLimit": 10,
+    "query": {
+      "limit": 3,
+      "offset": 0,
+      "sort": [
+        "-publish-date"
+      ],
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idnin",
+          "value": "category/awards.md"
+        }
+      ]
+    }
+  },
+  "d55077e": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "sort": [
+        "-published-on"
+      ],
+      "fields": [
+        {
+          "fieldPath": "show",
+          "operatorName": "eq",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "6d75abab": {
+    "collection": "team",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Passacantilli"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Adriano Urso"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Luciani"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-job-title"
+      ]
+    }
+  },
+  "-6250c9b9": {
+    "collection": "category"
+  },
+  "-45ef0f04": {
+    "collection": "digital_magazine",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "65ce7a20": {
+    "collection": "digital_marketing_consultancy"
+  },
+  "-73e2e8a9": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "How Should Advertising Account Management Work"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "We’re on Think With Google: read MyES’ case history!"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "-4745aace": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/consulenza-digital-marketing.md"
+        }
+      ],
+      "offset": 0,
+      "limit": 3,
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "5aa17f79": {
+    "collection": "ecommerce_retail"
+  },
+  "23164c3a": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Which e-commerce platform to choose?"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Omni-channel vs Multi-channel: what model do you need to follow?"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "-330d5246": {
+    "collection": "case_studies",
+    "query": {
+      "limit": 3,
+      "offset": 0,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/ecommerce-for-retail.md"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-501b72aa": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "SEO for Growth: How Long Shall You Be Doing It For?"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "How to prepare for the next generation of SEO: BERT"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "1456e81b": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/search-engine-optimization.md"
+        }
+      ],
+      "offset": 0,
+      "limit": 3,
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-910bea4": {
+    "collection": "digital_advertising"
+  },
+  "c741289": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Lush quits all Social Media in the UK: Why?"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Why Branded Keywords are (still) so important"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "6df198e7": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/digital-advertising.md"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "aedfbf5": {
+    "collection": "digital_magazine",
+    "paginationLimit": 1,
+    "query": {
+      "offset": 0,
+      "limit": 4,
+      "sort": [
+        "-publish-date"
+      ],
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.cat-test"
+        },
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "1fd6b871": {
+    "collection": "digital_magazine",
+    "paginationLimit": 2,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.cat-test"
+        }
+      ],
+      "offset": 0
+    }
+  },
+  "-1e0de0aa": {
+    "collection": "team",
+    "query": {
+      "sort": [
+        "created-on"
+      ]
+    }
+  },
+  "c1c92c3": {
+    "collection": "ecommerce_retail",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "59b81d01": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/ecommerce-for-retail.md"
+        },
+        {
+          "fieldPath": "microservizio-3",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.microservizio"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-4cd01744": {
+    "collection": "digital_marketing_consultancy",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "-4bcc8f7": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/consulenza-digital-marketing.md"
+        },
+        {
+          "fieldPath": "microservizio-3",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.microservizio"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-9610d66": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/digital-advertising.md"
+        },
+        {
+          "fieldPath": "microservizio-3",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.microservizio"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "2a86a289": {
+    "collection": "rich_tools",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "-7cf3dfc9": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/rich-tools.md"
+        },
+        {
+          "fieldPath": "microservizio-3",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.microservizio"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-5f92251": {
+    "collection": "brand_identity",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "-60ae3297": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "categorie-servizi/brand-identity.md"
+        },
+        {
+          "fieldPath": "microservizio-3",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.microservizio"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "73dafb70": {
+    "collection": "team",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Luciani"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Passacantilli"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Adriano Urso"
+        }
+      ],
+      "filterFor": "ANY",
+      "sort": [
+        "order"
+      ]
+    }
+  },
+  "-25d19270": {
+    "collection": "digital_magazine",
+    "paginationLimit": 5,
+    "query": {
+      "offset": 0,
+      "fields": [
+        {
+          "fieldPath": "cat-test",
+          "operatorName": "idnin",
+          "value": "category/awards.md"
+        }
+      ]
+    }
+  },
+  "-3cfa43be": {
+    "collection": "case_studies",
+    "paginationLimit": 1,
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "macroservizio",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT.macroservizio"
+        },
+        {
+          "fieldPath": "_id",
+          "operatorName": "ne",
+          "value": "DYN_CONTEXT"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ]
+    }
+  },
+  "35732c47": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "show",
+          "operatorName": "eq",
+          "value": "true"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-713df413": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        }
+      ]
+    }
+  },
+  "-16479a18": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/b2b.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "4e739462": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/b2b.md"
+        }
+      ]
+    }
+  },
+  "-403fec6": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/retail.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "offset": 0,
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "171c969": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/retail.md"
+        }
+      ]
+    }
+  },
+  "-262732b2": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/fashion.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-24e0fa44": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/fashion.md"
+        }
+      ]
+    }
+  },
+  "6ad0b8e4": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/food-beverage.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "2f3f1f2d": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/altri-settori.md"
+        }
+      ]
+    }
+  },
+  "-42eadc4d": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/turismo.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "5a533337": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/turismo.md"
+        }
+      ]
+    }
+  },
+  "-380d772e": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/formazione.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "3cc4db72": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/formazione.md"
+        }
+      ]
+    }
+  },
+  "8077c3f": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/healthcare.md"
+        }
+      ]
+    }
+  },
+  "691bb53d": {
+    "collection": "case_studies",
+    "paginationLimit": 5,
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/altri-settori.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-10331779": {
+    "collection": "microservizi"
+  },
+  "-6dfe5444": {
+    "collection": "team",
+    "query": {
+      "sort": [
+        "order"
+      ]
+    }
+  },
+  "11a7aca4": {
+    "collection": "team",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Simone Passacantilli"
+        }
+      ]
+    }
+  },
+  "-63ab068d": {
+    "collection": "rich_tools"
+  },
+  "-60efac34": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "How Machine Learning reshapes Marketing"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Google Store Visit: Discover how it will drive your success"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "3ffb440d": {
+    "collection": "brand_identity"
+  },
+  "-1ba6b96a": {
+    "collection": "digital_magazine",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Brand Storytelling: Turning a Brand's Story into Art"
+        },
+        {
+          "fieldPath": "name",
+          "operatorName": "eq",
+          "value": "Microcopy revolution: How UX Writing affects your Engagement"
+        }
+      ],
+      "filterFor": "ANY"
+    }
+  },
+  "-212ee4ba": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/b2b.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "5362b13": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/retail.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "34049d20": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/fashion.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "5e67c4ca": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/food-beverage.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-48f75bda": {
+    "collection": "case_studies",
+    "query": {
+      "sort": [
+        "-priorita"
+      ],
+      "fields": [
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "no"
+        },
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/food-beverage.md"
+        }
+      ]
+    }
+  },
+  "5f10e71b": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/turismo.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "48ec951c": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/formazione.md"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-3e7423ef": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/arte-e-cultura.md"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-17bd2d19": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/healthcare.md"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  },
+  "-2400470": {
+    "collection": "case_studies",
+    "paginationLimit": 10,
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "fields": [
+        {
+          "fieldPath": "show",
+          "operatorName": "eq",
+          "value": "true"
+        },
+        {
+          "fieldPath": "headline",
+          "operatorName": "exists",
+          "value": "yes"
+        }
+      ],
+      "sort": [
+        "-published-on"
+      ]
+    }
+  },
+  "688b0194": {
+    "collection": "case_studies",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category-2",
+          "operatorName": "idin",
+          "value": "portfolio-categories/formazione.md"
+        }
+      ],
+      "sort": [
+        "-priorita"
+      ]
+    }
+  }
+}

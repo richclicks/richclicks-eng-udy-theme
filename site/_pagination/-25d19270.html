@@ -1,0 +1,30 @@
+---js
+{
+  pagination: {
+  data: "collections.-25d19270_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div role="listitem" class="magazine__collection__item w-dyn-item">
+            <a href="{{ item.data.url | escape }}" class="magazine__thumbnail__image-container w-inline-block"><img loading="lazy" src="{{ item.data['thumbnail-image'].url | escape }}" alt="{{ item.data['thumbnail-image'].alt | escape }}" class="magazine__thumbnail__image"></a>
+            <div>
+              <a href="{{ item.data.url | escape }}" class="magazine__thumbnail__title-wrapper w-inline-block">
+                <h3 class="magazine__thumbnail__heading">{{ item.data.name }}</h3>
+                <p>{{ item.data.incipit }}</p>
+              </a>
+              <a href="{{ item.data.url | escape }}" class="button w-button">Read more</a>
+            </div>
+          </div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}

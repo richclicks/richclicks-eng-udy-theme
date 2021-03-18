@@ -1,0 +1,26 @@
+---js
+{
+  pagination: {
+  data: "collections.aedfbf5_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div role="listitem" class="w-dyn-item {% if item.filePathStem == pageItem.filePathStem %}udesly-display-none{% endif %}">
+                  <a href="{{ item.data.url | escape }}" class="blog__sidebar__thumbnail w-inline-block"><img src="{{ item.data['thumbnail-image'].url | escape }}" alt="{{ item.data['thumbnail-image'].alt | escape }}" class="blog__sidebar__thumbnail__img">
+                    <h6 class="log__sidebar__thumbnail__heading">{{ item.data.name }}</h6>
+                    {%- assign ref = item | resolveReference: "author-2", "team" -%}<div>{{ ref.data.name }}</div>
+                  </a>
+                </div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}

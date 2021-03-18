@@ -1,0 +1,71 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "richclicks eng"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  brand_identity:
+    type: "page"
+    label: "Creatività e Brand Identities"
+    urlPath: "/brand-identity/{slug}"
+  portfolio_categories:
+    type: "page"
+    label: "Portfolio Categories"
+    urlPath: "/portfolio-categories/{slug}"
+  category:
+    type: "page"
+    label: "Categories"
+    urlPath: "/category/{slug}"
+  microservizi:
+    type: "page"
+    label: "Microservizis"
+    urlPath: "/microservizi/{slug}"
+  rich_tools:
+    type: "page"
+    label: "RichTools"
+    urlPath: "/rich-tools/{slug}"
+  digital_marketing_consultancy:
+    type: "page"
+    label: "Consulenza Digital Marketings"
+    urlPath: "/digital-marketing-consultancy/{slug}"
+  awards:
+    type: "page"
+    label: "Awards"
+    urlPath: "/awards/{slug}"
+  case_studies:
+    type: "page"
+    label: "Case Histories"
+    urlPath: "/case-studies/{slug}"
+  categorie_servizi:
+    type: "page"
+    label: "Macroservizi Categories"
+    urlPath: "/categorie-servizi/{slug}"
+  blabla_dei_clienti_che_ci_stanno_simpa:
+    type: "page"
+    label: "BlaBla dei clienti che ci stanno simpas"
+    urlPath: "/blabla-dei-clienti-che-ci-stanno-simpa/{slug}"
+  platforms:
+    type: "page"
+    label: "Platforms"
+    urlPath: "/platforms/{slug}"
+  digital_advertising:
+    type: "page"
+    label: "Digital Advertisings"
+    urlPath: "/digital-advertising/{slug}"
+  digital_magazine:
+    type: "page"
+    label: "Blog Posts"
+    urlPath: "/digital-magazine/{slug}"
+  team:
+    type: "page"
+    label: "Team Members"
+    urlPath: "/team/{slug}"
+  ecommerce_retail:
+    type: "page"
+    label: "E-commerce for Retails"
+    urlPath: "/ecommerce-retail/{slug}"

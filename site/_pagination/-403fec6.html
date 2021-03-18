@@ -1,0 +1,38 @@
+---js
+{
+  pagination: {
+  data: "collections.-403fec6_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div role="listitem" class="case__thumbnail-item w-dyn-item" style="background-color: {{ item.data['background-color'] }}; border-color: {{ item.data['text-color'] }}">
+                <div class="w-layout-grid casi-studio__grid">
+                  <h2 id="w-node-_595939af-414d-e8fa-79f3-6ab497430067-d723f7f1" class="case__thumbnail__brand" style="color: {{ item.data['text-color'] }}">{{ item.data.name }}</h2>
+                  <div id="w-node-_595939af-414d-e8fa-79f3-6ab497430068-d723f7f1" class="portfolio__thumbnail__img" style="background-image: url('{{ item.data.immagine.url }}')">
+                    <a href="{{ item.url }}" class="portfolio__thumbnail__img-overlay w-inline-block" style="background-color: {{ item.data['background-color'] }}"></a>
+                  </div>
+                  <div class="case__hero__logo-container"><img loading="lazy" src="{{ item.data['logo-cliente'].url | escape }}" alt="{{ item.data['logo-cliente'].alt | escape }}" class="case__hero__logo"></div>
+                  <div class="casi__thumbnail__headline-wrapper">
+                    <h3 style="color: {{ item.data['text-color'] }}">{{ item.data.headline }}</h3>
+                    <a href="{{ item.url }}" class="button-8 w-button" style="background-color: {{ item.data['text-color'] }}; color: {{ item.data['background-color'] }}">Read the case study</a>
+                  </div>
+                  <div class="case__thumbnail__results-wrapper">
+                    <h3 class="case__thumbnail__results__heading" style="color: {{ item.data['text-color'] }}">SOME&nbsp;RESULTS</h3>
+                    <div class="case__thumbnail__results-rte results w-richtext" style="color: {{ item.data['text-color'] }}">{{ item.data['dato-in-evidenza'] }}</div>
+                    <a rel="nofollow" href="{{ item.data.link | escape }}" class="case__thumbnail__link" style="color: {{ item.data['link-color'] }}">{{ item.data['text-link'] }}</a>
+                  </div>
+                </div>
+              </div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}

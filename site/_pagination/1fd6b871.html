@@ -1,0 +1,21 @@
+---js
+{
+  pagination: {
+  data: "collections.1fd6b871_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div role="listitem" class="w-dyn-item w-col w-col-3 {% if item.filePathStem == pageItem.filePathStem %}udesly-display-none{% endif %}"></div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}

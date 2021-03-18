@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="67px" viewBox="0 0 70 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>award2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="award2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#ED1C24" cx="35" cy="34" r="30"></circle>
+        <g filter="url(#filter-1)" id="Group">
+            <g transform="translate(20.000000, 27.000000)">
+                <polygon id="Path-2" fill="#D8D8D8" points="0.0815083076 14.7424931 0.0815083076 4.18910438 5.06962596 10.9167035 9.80602683 4.18910438 14.9583907 10.9167035 19.6394062 4.18910438 24.6107173 10.9167035 29.0094586 4.18910438 29.0094586 14.7424931"></polygon>
+                <polygon id="Path-5" fill="#D8D8D8" points="-4.54747351e-13 2.45090809 -4.54747351e-13 -2.84217094e-14 29.3472129 -2.84217094e-14 29.3472129 2.45090809"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

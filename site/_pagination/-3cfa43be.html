@@ -1,0 +1,34 @@
+---js
+{
+  pagination: {
+  data: "collections.-3cfa43be_paged",
+  size: 1,
+  alias: "c",
+  },
+  permalink: "{{ c.permalink }}"
+}  
+---
+{%- capture items -%}
+{%- for item in c.items -%}
+<div role="listitem" class="_3portfolio-card-item w-dyn-item w-col w-col-4 {% if item.filePathStem == pageItem.filePathStem %}udesly-display-none{% endif %}">
+            <a href="{{ item.url }}" class="portfolio-card w-inline-block">
+              <div class="portfolio__card__img-container"><img src="{{ item.data.immagine.url | escape }}" loading="lazy" alt="{{ item.data.immagine.alt | escape }}" class="portfolio__card__img"></div>
+              <div class="div-block-97">
+                <div class="portfolio__card__thumbnail-wrapper">
+                  <h2 class="portfolio__card__thumbanil-heading">{{ item.data.name }}</h2>
+                  <p>{{ item.data.headline }}</p>
+                  <div class="portfolio__card__thumbnail__button">
+                    <div>Read more</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+{%- endfor -%}
+{%- endcapture -%}
+{
+  "items": {{ items | json }},
+   "length": "{{ c.items.length }}",
+   "next": "{{c.next }}",
+   "prev": "{{c.prev}}"
+}
