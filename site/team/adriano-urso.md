@@ -10,7 +10,7 @@ profile-picture:
 profile-pic-hover:
   url: https://uploads-ssl.webflow.com/60022928d7015e34f023f807/60022928d7015e37eb23fb69_adrianourso.png
   alt: ""
-job-title: CHIEF HAPPINESS OFFICER
+job-title: CHIEF HAPPINESS OFFICER?
 color-ref: "#ff6700"
 blob:
   url: https://uploads-ssl.webflow.com/60022928d7015e34f023f807/60022928d7015e7fd523fa65_arancione2.json
